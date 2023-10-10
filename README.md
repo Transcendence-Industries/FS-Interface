@@ -1,6 +1,6 @@
 # FS-Interface
 
-> An interface with GUI to connect a microcontroller to a flight simulator.
+> An universal interface between flight simulators and microcontroller.
 
 ## Table of Contents
 
@@ -13,12 +13,12 @@
 
 ## Introduction
 
-- Interface switches, buttons, annunciations, ... between the simulator and a home cockpit
-- Communication is realized using the UDP and COM protocols
+- This tool interfaces switches, buttons, annunciations, etc. between a flight simulator and home cockpit.
+- Communication is realized using the UDP and COM protocols.
     - UDP on simulator side
     - COM on microcontroller side
-- Information exchange with so called *datarefs* of the simulator
-- Tested with X-Plane 11 and an Arduino Uno/Nano
+- Information exchange with so called *datarefs* provided by the simulator.
+- Tested with X-Plane 11 and an Arduino Uno/Nano.
 
 ## Features
 
@@ -43,12 +43,12 @@
 
 ## Usage
 
-- Run the `FS-Interface.jar` file
-- Select a template file in the template frame and click `Load`
-- Set the *IP, Ports and Baud-Rate* in the control frame
-- Start both connections by clicking `Connect`
-- Activate both connections by clicking `Activate`
-- Change the delays as needed
+- Run the `FS-Interface.jar` file.
+- Select a template file in the template frame and click `Load`.
+- Set the *IP, Ports and Baud-Rate* in the control frame.
+- Start both connections by clicking `Connect`.
+- Activate both connections by clicking `Activate`.
+- Change the delays as needed.
 
 ## Acknowledgements
 
