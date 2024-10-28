@@ -23,17 +23,19 @@
 ## Features
 
 - Compatible with any COM supported microcontroller
-- Compatible with any flight simulator
+- Compatible with any UDP supported flight simulator
 - Compatible with any plane type
 - Creation of configuration templates for different planes
 
 ## Screenshots
 
-*Controller frame*
 ![Control_Frame](./Screenshots/Control_Frame.jpg)
+<br/>
+*Controller frame*
 
-*Template frame*
 ![Template_Frame](./Screenshots/Template_Frame.jpg)
+<br/>
+*Template frame*
 
 ## Dependencies
 
@@ -45,6 +47,7 @@
 
 - Run the `FS-Interface.jar` file.
 - Select a template file in the template frame and click `Load`.
+- Alternatively create a new template file and save it.
 - Set the *IP, Ports and Baud-Rate* in the control frame.
 - Start both connections by clicking `Connect`.
 - Activate both connections by clicking `Activate`.
@@ -52,6 +55,6 @@
 
 ## Acknowledgements
 
-This project was inspired by myself, since there was no alternative.
+This project was inspired by myself, since there was no suitable alternative.
 
 *Original idea in May 2019*
